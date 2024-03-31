@@ -1,5 +1,5 @@
 function sumValues(){
-    var num1, num2, num3, num4, num5, num6, res;
+    var num1, num2, num3, num4, num5, num6, num7, res;
 
     num1=Number(document.formcalc.txtnum1.value);
     num2=Number(document.formcalc.txtnum2.value);
@@ -17,7 +17,8 @@ function sumValues(){
     num5 = num1-num3-num4;
     document.formcalc.txtnum5.value=num5;
 
-    
+    num7 = num3 + num4;
+    document.formcalc.txtnum7.value=num7;
 
 
 }

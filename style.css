@@ -8,10 +8,10 @@ body{
     margin: 0;
 }
 .container{
+    padding: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background-color: lightgray;
 }
 
@@ -39,3 +39,22 @@ button{
 }
 
 
+@media (max-width: 430px) {
+
+.container{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+}
