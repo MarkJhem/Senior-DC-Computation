@@ -39,3 +39,30 @@ button{
 }
 
 
+@media all and (max-width: 430px) {
+
+    body{
+        background-color: lightgray;
+    }
+    .container{
+        padding: 40px 0px 0px 0px;
+        background-color: lightgray;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    .calculator{
+    
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    label{
+        margin: 4px;
+    }
+}
+    
