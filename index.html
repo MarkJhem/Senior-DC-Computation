@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senior Discount</title>
+
+    <!-- CSS --> 
+    <link rel="stylesheet" href="./style.css">
+       
+</head>
+<body>
+
+<!--
+    <div class="header">
+        <h1>Senior Discount Computation</h1>
+    </div>
+
+    <form class="container-1">
+        <div>
+            <label for="bill-amount">Bill Amount:</label>
+            <input type="text" name="" id="">
+        </div>
+        <br>
+        <div>
+            <label for="bill-amount"># of Costumer:</label>
+            <input type="text" name="" id="">
+        </div>
+        <br>
+        <div>
+            <label for="bill-amount"># of Senior:</label>
+            <input type="text" name="" id="">
+        </div>
+    </form>
+
+    <div class="header">
+        <h2>Discount Computation</h2>
+    </div>
+    
+    <form class="container-1">
+        <div>
+            <label for="bill-amount">12% VAT Discount:</label>
+            <input type="text" name="" id="">
+        </div>
+        <br>
+        <div>
+            <label for="bill-amount">20% Senior Discount:</label>
+            <input type="text" name="" id="">
+        </div>
+        <br>
+        <div>
+            <label for="bill-amount">TOTAL AMOUNT:</label>
+            <input type="text" name="" id="">
+        </div>
+    </form>
+    <input class="submit" type="Submit">
+-->
+    <!-- -->
+    <div class="container" >
+        <form class="calculator" name="formcalc">
+            <h2>Senior Discount Computation</h2>
+
+            <label>Total Bill Amount:</label>
+            <br>
+            <input type="number" name="txtnum1" >
+            <br>
+
+            <label># of Customers:</label>
+            <br>
+            <input type="number" name="txtnum2">
+            <br>
+
+            <!--# OF SENIOR-->
+            <label># of Senior</label>
+            <br>
+            <input type="number" name="txtnum6">
+            <br>
+
+
+            <label>Amount per Head</label>
+            <br>
+            <input disabled type="text" name="txtres">
+            <br>
+
+
+            <input type="button" value="Calculate" onclick="sumValues()" name="result">
+            <button type="reset" value="reset">reset</button>
+
+            <hr>
+            <!-- VAT -->
+            <label name="vat">12% VAT Discount</label>
+            <br>
+            <input disabled type="text" name="txtnum3">
+            <br>
+
+            <!-- SC-->
+            <label name="vat">20% SC Discount</label>
+            <br>
+            <input disabled type="text" name="txtnum4">
+            <br>
+
+            <hr>
+
+            <h2>Total Amout:</h2>
+            <input disabled type="text" name="txtnum5">
+            <br>
+        </form>
+    </div>
+
+    <script src="./script.js">
+    </script>
+</body>
+</html>
